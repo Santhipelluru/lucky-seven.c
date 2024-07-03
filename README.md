@@ -1,2 +1,11 @@
-# lucky-seven.c
-print the value of lucky seven
+#include <stdio.h>
+
+int main(void) 
+{
+    char s[10];
+    scanf("%s",s);
+    printf("%c",s[6]);
+}
+
+
+
